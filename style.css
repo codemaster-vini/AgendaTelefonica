@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+#container{
+    border: 2px solid black;
+    width: 331px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 100px;
+    background-color: lightsteelblue;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 331px;
+    margin: auto;
+}
+
+.container#header{
+    margin-bottom: 20px;
+}
+
+img{
+    width: 35px;
+    margin-left: 20px;
+}
+
+.container#form{
+    display: block;
+}
+
+.container#form > input{
+    margin-bottom: 5px;
+    max-width: 155.20px;
+    padding: 4px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: 0px;
+}
+
+.container#form > input:focus{
+    outline-color: transparent;
+}
+
+.container#form > button{
+    width: 331px;
+    padding: 5px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: 0px;
+    background-color: limegreen;
+    font-weight: bolder;
+}
+
+.container#form > button:hover{
+    cursor: pointer;
+}
+
+table{
+    margin-top: 10px;
+    width: 331px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table th{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 5px;
+}
+
+table th.name{
+    border-right: 1px solid black;
+}
+
+table th.number{
+    border-left: 1px solid black;
+}
+
+table td{
+    text-align: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid rgba(0, 0, 0, 0.171);
+    padding: 3px;
+}
+
+table td.name{
+    border-left: 2px solid black;
+}
+
+table td.number{
+    border-left: 1px solid rgba(0, 0, 0, 0.171);
+    border-right: 2px solid black;
+}
+
+
+
